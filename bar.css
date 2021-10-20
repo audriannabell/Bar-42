@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 300;
     margin: 0;
 }
@@ -26,6 +26,7 @@ header {
     flex-direction: column;
     align-items: center;
     scroll-snap-align: start;
+    top:0;
 
 }
 
@@ -47,7 +48,7 @@ nav a {
     justify-content: center;
     text-decoration: none;
     color: inherit;
-    font-size: 24px;
+    font-size: 1.5rem;
     width: 120px;
     margin: 0px 100px;
     padding-bottom: 10px;
@@ -74,7 +75,7 @@ nav a:hover {
 
 .hoursandres button {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 1.2rem;
     padding: 5px 10px;
     transition: background-color .3s ease-in;
 }
@@ -87,6 +88,8 @@ nav a:hover {
     text-decoration: none;
     color: inherit;
 }
+
+
 
 .menuwrapper {
     background-image: url("/Users/audriannahatch/OneDrive/Audrianna-Coding/Bar Project/pexels-pavel-danilyuk-7518776 (1).jpeg");
@@ -117,7 +120,7 @@ nav a:hover {
     border: 1px solid white;
     padding: 10px 80px;
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 1.7rem;
     background-color: rgba(0,0,0, 0.5);
     display: flex;
     justify-content: center;
@@ -182,7 +185,6 @@ nav a:hover {
     padding: 0px 60px;
     top: 2250px;
     transform: translateY(-50%);
-    font-size: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     z-index: 100;
     cursor: pointer;
