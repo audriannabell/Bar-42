@@ -54,7 +54,7 @@ prevBtn.addEventListener("click", () => {
 
 function goToSlide(slideNumber) {
   slidesContainer.style.transform =
-    "translateX(-" + slideWidth * slideNumber +"px)";
+    "translateX(-" + (slideWidth * slideNumber) +"px)";
 
   currentSlide = slideNumber;
 
