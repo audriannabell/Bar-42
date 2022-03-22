@@ -5,10 +5,20 @@ body {
     margin: 0;
     padding: 0;
     top: 0;
-    width: 100vw;
+    width: 100%;
     display: block;
     overflow-y: scroll;
     scroll-behavior: smooth;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -246,7 +256,7 @@ a {
 .contact__container {
     background-image: url("contact-background.jpeg");
     background-size: cover;
-    min-height: 100vh;
+    min-height: 60vh;
     padding-bottom: 3rem;
 }
 
